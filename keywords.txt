@@ -1,0 +1,20 @@
+GraphicEqualiser	KEYWORD1
+
+begin	KEYWORD2
+graphicWrite	KEYWORD2
+barWrite	KEYWORD2
+graphicBlankColumn	KEYWORD2
+graphicBlankRow	KEYWORD2
+graphicBlankAll	KEYWORD2
+graphicFillColumn	KEYWORD2
+graphicFillRow	KEYWORD2
+graphicFillAll	KEYWORD2
+graphicFlashColumn	KEYWORD2
+graphicFlashRow	KEYWORD2
+graphicFlashAll	KEYWORD2
+
+
+get_onValue	KEYWORD2
+get_offValue	KEYWORD2
+set_onValue	KEYWORD2
+set_offValue	KEYWORD2
