@@ -83,7 +83,7 @@ The file MethodReference.txt is a simplified form of the header file, LEDBarGrap
 Constructor Methods
 ===================
 
-There are five various overridden constructors. Please note that all constructors configure the pins for both digits. The reason is that this library is designed for the two digital SL-1255 display. If you only want to configure the pins for just one digit, then use a single digit version of this library. Here is a list of the constructor types:
+There are three various overridden constructors. Please note that all constructors configure the pins for both columns and rows. Here is a list of the constructor types:
 
 Default
 -------
