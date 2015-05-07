@@ -1,0 +1,47 @@
+        *** LED Bar Graph OHA 8494 Library ***
+       ========================================
+
+        *** QuickStart ***
+       ====================
+
+       Version : 0.5.0
+
+In order to get you started, wire up your LED Bar Graph display to your Nano, UNO, Mega board using the pin out described below (don't forget the 470 Ohm series resistors between each Arduino pin and column), and then run the example sketches, which are found in the examples directory.
+
+
+Default Pinout
+==============
+
+    Arduino   Bar Graph pin
+
+    pin 2  -> column 1
+    pin 3  -> column 2
+    pin 4  -> column 3
+    pin 5  -> column 4
+    pin 6  -> column 5
+    pin 7  -> column 6
+    pin 8  -> column 7
+    pin 9  -> row 1
+    pin 10 -> row 2
+    pin 11 -> row 3
+    pin 12 -> row 4
+    pin 13 -> row 5
+    pin 14 -> row 6
+    pin 15 -> row 7
+
+The necessary methods
+=====================
+
+In order to create a basic sketch, in addition to calling the constructor to instantiate the object, you will require calling two methods:
+  - begin() - in setup() - to initialise the pin outputs of the Arduino
+  - graphicWrite(int, int) - in loop() - pass values for column and row to display a filled column up to te specified row.
+
+Additional useful methods, that may be called in the loop() function include:
+  - graphicBlankAll() - to turn off all the segments in the LED bar graph
+  - graphicFillAll() - to turn on the segments in the LED bar graph
+  - graphicFlashAll(int) - to turn on and off the segments in the LED bar graph, using a delay
+
+Many other, more advanced, methods are also provided. Please refer to the Readme and the header file, LEDBarGraphOHA8494.h, for more information.
+
+Enjoy.
+ 
